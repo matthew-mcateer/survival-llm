@@ -5,6 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
+*.pyc
 
 # Distribution / packaging
 .Python
@@ -218,3 +219,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+.venv/
+
+library.noindex/
+packaging/cache/
+
+# macOS
+.DS_Store
